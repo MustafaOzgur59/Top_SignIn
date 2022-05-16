@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SignIn Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="image-section">
+        <div class="logo">
+          <img src="odin-lined.png" alt="Odin Logo" />
+          <span>ODIN</span>
+        </div>
+      </div>
+      <div class="form-section">
+        <div class="header">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help realize your deepest dreams. Sign up now
+            to get started.
+          </p>
+          <p>You know you want to</p>
+        </div>
+
+        <form action="post" id="main_form">
+          <div class="form_body">
+            <h3>Let's do this!</h3>
+            <div class="inputs">
+              <div class="input-div">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" />
+              </div>
+              <div class="input-div">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" />
+              </div>
+              <div class="input-div">
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="input-div">
+                <label for="">Phone Number</label>
+                <input type="text" />
+              </div>
+              <div class="input-div">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="error" />
+              </div>
+              <div class="input-div">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" class="error" />
+              </div>
+            </div>
+          </div>
+          <div class="form_footer">
+            <button type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="#">Log In</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

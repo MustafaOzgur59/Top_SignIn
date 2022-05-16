@@ -1,0 +1,105 @@
+:root {
+  --left-pad: 50px;
+}
+@font-face {
+  font-family: Norse-Bold;
+  src: url(Norse-Bold.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 248, 248);
+}
+
+.container {
+  display: flex;
+}
+
+.image-section {
+  background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 5.5rem;
+  font-family: Norse-Bold;
+  margin-top: 20vh;
+  padding: 16px 0;
+}
+
+.logo img {
+  height: 150px;
+}
+
+.form-section {
+  width: 60vw;
+
+  font-size: 20px;
+}
+.form-section > .header {
+  padding-left: var(--left-pad);
+  width: 70%;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.form_body {
+  background-color: white;
+  padding: 10px;
+  padding-left: var(--left-pad);
+  box-shadow: 0px 6px 5px 4px rgb(0 0 0 / 10%);
+}
+
+.form_footer {
+  padding-left: var(--left-pad);
+  margin-top: 20px;
+}
+
+.form_footer > button {
+  background-color: #596d48;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 50px;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.inputs > .input-div {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #e2e4e9;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.form_footer a {
+  color: #596d48;
+}
